@@ -1,4 +1,8 @@
-# 光遇祈福签 API - Python 版本
+# 光遇祈福签 API - Go 版本
+
+原始项目地址： https://github.com/XingWo/skyblessings
+光遇祈福签 API - Python 版本：https://github.com/XingWo/skyblessings-python-api
+光遇祈福签 API - Go 版本：https://github.com/XingWo/skyblessings-go-api
 
 基于 Go + gg图形库 实现的sky祈福签图片生成 API
 
