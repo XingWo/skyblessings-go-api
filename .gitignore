@@ -1,0 +1,36 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# IDEs
+.vscode/
+.idea/
+
+# Local configuration
+config.toml
+
+# Build output
+dist/
+
+# Redundant assets copy in src (from previous embed attempt)
+src/assets/
+
+# Python virtual environment
+test/venv/
+venv/
+env/
+*.pyc
+__pycache__/
+
+# OS specific
+.DS_Store
+Thumbs.db

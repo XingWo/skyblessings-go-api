@@ -1,0 +1,13 @@
+# 祈福签 API 配置文件
+
+[server]
+host = "0.0.0.0"
+port = 51205
+
+[image]
+width = 1240
+height = 620
+# 注意：使用嵌入资源时，路径应相对于 src 目录，且使用正斜杠 /
+font_path = "assets/font/LXGWWenKaiMono-Medium.ttf"
+font_size = 40
+assets_dir = "assets/starimg"
