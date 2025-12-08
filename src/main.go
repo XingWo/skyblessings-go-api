@@ -119,7 +119,7 @@ assets_dir = "../assets"
 // handleIndex 首页
 func handleIndex(c *gin.Context) {
 	c.JSON(200, gin.H{
-		"message": "🌟 祈福签 API",
+		"message": "光遇祈福签 API",
 		"version": "1.0.0",
 		"endpoints": gin.H{
 			"GET /blessing": "获取随机祈福签图片",

@@ -154,10 +154,7 @@ func performDraw() *BlessingResult {
 	}
 
 	// 2. 抽取签文类型（大吉、中吉等）
-	textItems := getChildItems("0")
-	if len(textItems) == 0 {
-		textItems = getChildItems("9") // 奇签特殊处理
-	}
+	textItems := getChildItems(bgItem.ID)
 	textItem := drawRandomItem(textItems)
 	if imgPath, ok := textImageMap[textItem.Name]; ok {
 		result.TextImage = imgPath
