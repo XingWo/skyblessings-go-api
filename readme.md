@@ -206,5 +206,5 @@ taskkill /PID <进程ID> /F # Windows PowerShell
 sudo kill -9 <进程ID> # Linux bash
 ```
 
-## 哔哩哔哩by:星沃  (UID:398932457)
-## 协助者大佬:哔哩哔哩by:VincentZyu (UID:34318934)
+## 作者：哔哩哔哩by：星沃  (UID:398932457)
+## 协助者大佬：哔哩哔哩by：VincentZyu (UID:34318934)
